@@ -1,5 +1,7 @@
 # Twit Listen
 
+Listen to Twitter's Streaming statuses/sample and push the sampling to Cloudant as it comes.
+
 ## Install
 
 First, clone the repo and install dependencies:
