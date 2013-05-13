@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p The database #{db_name} is storing 
+    span#doc_count
+    span  tweets.
+  p Access the data from 
+    a(href="#{db_url}")= db_url
