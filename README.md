@@ -29,11 +29,3 @@ To connect to your Cloudant database, export the following:
 I use [Heroku's toolbelt](https://toolbelt.heroku.com/), wherein you put your environment variables in `.env`, then run the application with `foreman start`. Foreman exports your environment variables within the context of the application's process. See [Heroku: Configuration and Config Vars](https://devcenter.heroku.com/articles/config-vars) for more details.
 
 If not using Foreman, run the app with `node app.js`.
-
-## Public Use
-
-The `twit_listen` database, and all its data, are publicly readable at [https://garbados.cloudant.com/twit_listen](https://garbados.cloudant.com/twit_listen). You can use the app in this repo to do it yourself, or access the data there.
-
-## Public Views
-
-COMING SOON :D
